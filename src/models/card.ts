@@ -35,7 +35,6 @@ export async function getCard(cardNumber:string):Promise<Card>{
     try {
         const response = await fetch(url, options);
         const data:typeFullCardInfo = await response.json();
-
         card.bankName = data.BIN.issuer.name
         card.country = data.BIN.country.name
         card.currency = data.BIN.currency

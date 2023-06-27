@@ -17,4 +17,5 @@ export default cleanEnv(process.env, {
   BIN_CHEKER_API_KEY:str(),
   BIN_CHEKER_API_URL:str(),
   CLIENT_URL: str(),
+  BANK_API_URL: str(),
 })

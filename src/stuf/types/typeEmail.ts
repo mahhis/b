@@ -1,4 +1,4 @@
-import {IsEmail, IsString} from "amala";
+import {IsEmail} from "amala";
 
 export default class typeEmail{
     @IsEmail()

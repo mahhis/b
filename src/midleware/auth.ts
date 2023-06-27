@@ -1,5 +1,5 @@
 import { Context, Next } from 'koa'
-import { UserModel } from '@/models/User'
+import { UserModel } from '@/models/user'
 import { badRequest, notFound } from '@hapi/boom'
 import { TokenType, verify } from '@/stuf/jwt'
 
